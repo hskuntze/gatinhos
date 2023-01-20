@@ -1,3 +1,4 @@
+import Navbar from "components/Navbar";
 import Home from "pages/Home";
 import {
   BrowserRouter as Router,
@@ -8,7 +9,7 @@ import {
 const Routes = () => {
   return (
     <Router>
-      {/* <Navbar /> */}
+      <Navbar />
       <Switch>
         <Route path="/" element={<Home />} />
       </Switch>
